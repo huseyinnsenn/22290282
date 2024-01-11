@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Resmi ortaya hizalamak için */
+        body {
+            background-image: url('background.png'); /* Arkaplan fotoğrafı */
+            background-size: 100% 350%; /* Fotoğrafın genişliği ve yüksekliği orijinal boyutunun yarısı olacak şekilde ölçeklenir */
+
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Belirli bir bölgenin arkaplanını boyamak için */
+        .highlighted-area {
+            background-color: green;
+            padding: 1px; /* İsteğe bağlı: içeriği daha güzel göstermek için biraz boşluk ekleyebilirsiniz */
+        }
+        .highlighted-area2 {
+            background-color: black;
+            padding: 10px; /* İsteğe bağlı: içeriği daha güzel göstermek için biraz boşluk ekleyebilirsiniz */
+            display: flex;
+            justify-content: center; /* Resimleri yatayda ortala */
+            align-items: center; /* Resimleri dikeyde ortala */
+        }
+        .highlighted-area2 a {
+            margin: 0 5px; /* Resimler arasında biraz boşluk bırak */
+        }
+        .highlighted-area3 {
+            background-color: black;
+            padding: 50px; /* İsteğe bağlı: içeriği daha güzel göstermek için biraz boşluk ekleyebilirsiniz */
+        }
+        textarea {
+            background-color: greenyellow;
+            /* İstediğiniz rengi seçebilirsiniz */
+            width: 300px; /* İstediğiniz genişliği belirleyebilirsiniz */
+            height: 100px; /* İstediğiniz yüksekliği belirleyebilirsiniz */
+        }
+    </style>
+</head>
+<body>
+    <div class="highlighted-area">
+        <div class="center">
+            <a href="minecraftanasayfa.html" >
+                <img src="mcanasayfa.png" width="250" height="120">
+            </a>
+        </div>
+
+    </div>
+    <div class="highlighted-area2">
+        <a href="minecraftanasayfa.html" >
+            <img src="anasayfa.png" width="120" height="63">
+        </a>
+        <a href="minecrafthaberler.html">
+            <img src="haberler.png" width="120" height="63">
+        </a>
+        <a href="minecraftmarket.html">
+            <img src="urunler.png" width="120" height="63">
+        </a>
+        <a href="minecraftrehber.html">
+            <img src="rehber.png" width="120" height="63">
+        </a>
+        <a href="minecraftforum.html">
+            <img src="forum.png" width="120" height="63">
+        </a>
+        <a href="siteyoutube.html">
+            <img src="videolar.png" width="120" height="63">
+        </a>
+        <a href="sikayetoneri.html">
+            <img src="sikayet.png" width="120" height="63">
+        </a>
+        <a href="minecrafthakkimizda.html">
+            <img src="hakkimizda1.png" width="120" height="63">
+        </a>
+        <a href="minecraftduyurular.html">
+            <img src="duyurular.png" width="120" height="63">
+        </a>
+    </div>
+
+
+    <div class="center">
+        <img src="isim.png" width="200" height="200">
+
+    </div>
+    <div class="center">
+        <input type="text" id="username" name="username" placeholder="İsim giriniz:">
+    </div>
+    <div class="center">
+        <img src="soyisim.png"width="200" height="200">
+        
+    </div>
+    <div class="center">
+        <input type="text" id="username" name="username" placeholder="Soyisim giriniz:">
+    </div>
+    <div class="center">
+        <img src="numara.png"width="200" height="200">
+    </div>
+    <div class="center">
+        <input type="text" id="username" name="username" placeholder="Numara giriniz:">
+    </div>
+    <div class="center">
+        <img src="eklemek.png"width="500" height="400">
+    </div>
+    <div class="center" class="textarea">
+        <textarea color = "green" id="message" name="message" rows="4" cols="50"></textarea>
+    </div>
+    <div class="center">
+        <input type="submit" value="Submit">
+
+    </div>
+    
+    
+    
+
+
+</body>
+</html>
+ 
